@@ -1,0 +1,241 @@
+
+*
+{
+    margin:0px;
+}
+
+body 
+{
+    font-size: 28px;
+}
+  
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1B4332; /* navbar color */
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+  
+li 
+{
+    float: left;
+}
+  
+li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover 
+{
+    background-color: #40916C; /* change page */
+}
+  
+.active 
+{
+    background-color: #2D6A4F; /* which page on */
+}
+
+.responsive 
+{
+    width: 100%;
+    height: 100%;
+}
+
+#firstDiv
+{
+    background-color: #081C15;
+    margin-bottom: -20px;
+}
+
+#headerImage
+{
+    width: 100%;
+    height: 100%;
+}
+
+.jumbotron
+{
+    overflow: auto;
+    align-content: center;
+}
+
+.container
+{
+    margin-top: 50px;
+    margin-bottom: 75px;
+    align-content: center;
+}
+
+#secondDiv
+{
+    background-color: #1B4332;
+}
+
+#thirdDiv
+{
+    background-color: #40916C;
+}
+
+.grid-even-columns
+{
+    display: grid;
+    gap: 1rem;
+    
+}
+
+@media (min-width: 40em)
+{
+    .grid-even-columns
+    {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.well-lg
+{
+    margin: 1rem;
+    color: black;
+    height: 24em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+
+#profile
+{
+    column-count: 2;
+}
+
+#profileImage
+{
+    border-radius: 5%;
+    max-width: 60%;
+    max-height: 50%;
+    align-self: right;
+}
+
+#generalInfo
+{
+    font-size: 20px;
+}
+
+#end
+{
+    background-color: #1B4332;
+    height: 40px;
+}
+
+#kontakt_info
+{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: #1B4332;
+    margin-bottom: 0%;
+}
+
+#kontakt_länkar
+{
+    text-align: center;
+    padding-bottom: 25px;
+    background-color: #1B4332;
+}
+
+#arbete
+{
+    border-radius: 5%;
+    max-width: 100%;
+    max-height: 100%;
+    align-self: center;
+    
+}
+
+/* experiment kod */
+
+.container 
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  
+  
+  .box1, .box2 
+  {
+    width: 48%;
+    margin-bottom: 1em;
+  }
+
+  .box1
+  {
+    background-color: #2D6A4F;
+    border-radius: 5%;
+    border: 100%;
+    padding: 2.5%; 
+  }
+
+  .box2 
+  {
+    background-color: #2D6A4F;
+    border-radius: 5%;
+    color: rgb(201, 185, 185);
+    border: 100%;
+    padding: 2.5%;
+  }
+  
+  .responsive-image 
+  {
+    width: 100%; /* bilden blir 100% width av sin container */
+    height: auto; /* Behålla storlek till förhållandet */
+    border-radius: 5%; /* runda av kanterna */
+    margin-bottom: 10%;
+  }
+  
+  @media (max-width: 767px) 
+  {
+    .container 
+    {
+      flex-direction: column;
+    }
+
+    .responsive-image 
+    {
+    width: 100%; /* bilden blir 100% width av sin container */
+    height: auto; /* Behålla storlek till förhållandet */
+    border-radius: 5%;
+    }
+
+    .box1, .box2 
+    {
+      width: 100%;
+    }
+
+  }
+
+  #tydlig
+  {
+    color: rgb(231, 214, 214);
+  }
+
+  #titel
+  {
+    color: rgb(223, 223, 223);
+    margin-bottom: 1em;
+    margin-top: 2em;
+    align-self: center;
+    text-align: center;
+  }

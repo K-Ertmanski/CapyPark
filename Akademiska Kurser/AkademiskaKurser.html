@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>CapyPark</title>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/235/235359.png">
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
+  <link rel="icon" href="favicon.png">
+  <link rel="stylesheet" href="AkademiskaKurser.css"> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <style>
+    hr 
+    {
+      margin-top: 120px;
+      height: 25px;
+      background-color: #2D6A4F;
+      border: none;
+    }
+    
+    .card 
+    {
+      background-color: #2D6A4F;
+      color: white;
+      padding: 1rem;
+      height: 4rem;
+    }
+
+    .cards  
+    {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      gap: 1rem;
+    }
+
+    a 
+    { 
+      text-decoration: none; 
+      color: white;
+    }
+
+    @media (min-width: 900px) 
+    {
+      .cards { grid-template-columns: repeat(3, 1fr); }
+    }
+
+    * 
+    {
+      box-sizing: border-box;
+    }
+
+    /* experimental */
+
+    .flex-container 
+    {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      background-color: DodgerBlue;
+    }
+
+    .flex-container > div {
+      background-color: #f1f1f1;
+      margin: 10px;
+      text-align: center;
+      line-height: 75px;
+      font-size: 30px;
+      line-height: 1.2em;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+<!-- begining -->
+
+  <div id="firstDiv">
+    <img src="../.vscode/Capybara_Photoshop_Baner_kopia1.jpg" alt="CapybaraBanner" id="headerImage">
+  </div>
+  
+  <div id="secondDiv">
+    <ul>
+    <li><a href="../Index.html">Hem</a></li>
+    <li><a href="../Angånde Mig/AngandeMig.html">Angående Mig</a></li>
+    <li><a href="../Intressen/Intressen.html">Intressen</a></li>
+    <li><a class="active" href="AkademiskaKurser.html">Akademiska Kurser</a></li>
+    <li><a href="../Arbetat Med/ArbetatMed.html">Arbetat Med</a></li>
+    <li><a href="../Kontakt Information/KontaktInformation.html">Kontakt</a></li>
+    </ul>
+  </div>
+
+  <div id="thirdDiv">
+    
+  </div>
+
+
+  <!-- mid experiment -->
+
+  <div class="container">
+    <div class="box1">
+      <h1> </h1>
+      <img src="../.vscode/Capybara_Stone_Statue(PNG Version).png" alt="CapybaraProfile" class="responsive-image">
+      <!-- Yttligare info bifoga här -->
+    </div>
+
+    <div class="box2">
+      <h1 style="color:rgb(223, 223, 223);"><b> Akademiska Kurser </b></h1>
+      <h4 id="tydlig">
+      Sedan barndomen har min fascination för teknik format min resa. Att utforska maskiners och dators inre, samt fördjupa mig i spel och program, har varit en konstant. Från att plocka isär prylar till att lösa tv-spelspussel har jag låtit nyfikenheten vägleda mig. <br><br>
+
+      Genom att delta i kodtävlingar och bidra till öppen källkod har jag ökat min tekniska kompetens. Nu strävar jag efter vidareutbildning för att fördjupa min förståelse och forma framtidens teknologi. Målet är att inte bara förstå komplexiteten utan också aktivt bidra till innovation. <br><br>
+          
+      Sammanfattningsvis har min livslånga passion för teknik format mitt intresse, mina fritidsaktiviteter och mina akademiska strävanden. Jag ser fram emot att omvandla denna passion till en meningsfull karriär och göra positiva avtryck i teknikens värld. <br>
+      </h4 >
+    </div>
+  </div>
+
+  <!-- mid -->
+
+  <!-- cards begin -->
+
+<div class="cards">
+
+  <div class="card"> <a style="font-weight:bold" href="https://www.skolverket.se/undervisning/gymnasieskolan/laroplan-program-och-amnen-i-gymnasieskolan/gymnasieprogrammen/amne?url=-996270488%2Fsyllabuscw%2Fjsp%2Fsubject.htm%3FsubjectCode%3DTEK%26version%3D2%26tos%3Dgy&sv.url=12.5dfee44715d35a5cdfa92a3" target="_blank">Teknik</a> </div>
+  <div class="card"> <a style="font-weight:bold" href="https://www.skolverket.se/undervisning/gymnasieskolan/laroplan-program-och-amnen-i-gymnasieskolan/gymnasieprogrammen/amne?url=-996270488%2Fsyllabuscw%2Fjsp%2Fsubject.htm%3FsubjectCode%3DWEU%26version%3D2%26tos%3Dgy&sv.url=12.5dfee44715d35a5cdfa92a3" target="_blank">Webbutveckling</a> </div>
+  <div class="card"> <a style="font-weight:bold" href="https://www.skolverket.se/undervisning/gymnasieskolan/laroplan-program-och-amnen-i-gymnasieskolan/gymnasieprogrammen/amne?url=-996270488%2Fsyllabuscw%2Fjsp%2Fsubject.htm%3FsubjectCode%3DFYS%26version%3D3%26tos%3Dgy&sv.url=12.5dfee44715d35a5cdfa92a3" target="_blank">Fysik</a> </div>
+  <div class="card"> <a style="font-weight:bold" href="https://www.skolverket.se/undervisning/gymnasieskolan/laroplan-program-och-amnen-i-gymnasieskolan/gymnasieprogrammen/amne?url=-996270488%2Fsyllabuscw%2Fjsp%2Fsubject.htm%3FsubjectCode%3DKEM%26version%3D2%26tos%3Dgy&sv.url=12.5dfee44715d35a5cdfa92a3" target="_blank">Kemi</a> </div>
+  <div class="card"> <a style="font-weight:bold" href="https://www.skolverket.se/undervisning/gymnasieskolan/laroplan-program-och-amnen-i-gymnasieskolan/gymnasieprogrammen/amne?url=-996270488%2Fsyllabuscw%2Fjsp%2Fsubject.htm%3FsubjectCode%3DMAT%26version%3D11%26tos%3Dgy&sv.url=12.5dfee44715d35a5cdfa92a3" target="_blank">Matematik</a> </div>
+  <div class="card"> <a style="font-weight:bold" href="https://www.skolverket.se/undervisning/gymnasieskolan/laroplan-program-och-amnen-i-gymnasieskolan/gymnasieprogrammen/amne?url=-996270488%2Fsyllabuscw%2Fjsp%2Fsubject.htm%3FsubjectCode%3DSVE%26version%3D8%26tos%3Dgy&sv.url=12.5dfee44715d35a5cdfa92a3" target="_blank">Svenska</a> </div>
+  <div class="card"> <a style="font-weight:bold" href="https://www.skolverket.se/undervisning/gymnasieskolan/laroplan-program-och-amnen-i-gymnasieskolan/gymnasieprogrammen/amne?url=-996270488%2Fsyllabuscw%2Fjsp%2Fsubject.htm%3FsubjectCode%3DENG%26version%3D6%26tos%3Dgy&sv.url=12.5dfee44715d35a5cdfa92a3" target="_blank">Engelska</a> </div>
+  <div class="card"> <a style="font-weight:bold" href="https://www.skolverket.se/undervisning/gymnasieskolan/laroplan-program-och-amnen-i-gymnasieskolan/gymnasieprogrammen/amne?url=-996270488%2Fsyllabuscw%2Fjsp%2Fsubject.htm%3FsubjectCode%3DPRR%26version%3D4%26tos%3Dgy&sv.url=12.5dfee44715d35a5cdfa92a3" target="_blank">Programmering</a> </div>
+  <div class="card"> <a style="font-weight:bold" href="https://www.skolverket.se/undervisning/gymnasieskolan/laroplan-program-och-amnen-i-gymnasieskolan/gymnasieprogrammen/amne?url=-996270488%2Fsyllabuscw%2Fjsp%2Fsubject.htm%3FsubjectCode%3DIDR%26version%3D5%26tos%3Dgy&sv.url=12.5dfee44715d35a5cdfa92a3" target="_blank">Idrott och hälsa</a> </div>
+
+</div>
+
+  <!-- card end -->
+
+  <!-- end -->
+ 
+
+  <div id="end">
+    <hr>
+  </div>
+
+  <footer>
+    <p id="kontakt_info" style="color:rgb(223, 223, 223);">Kontakt</p>
+    <div id="kontakt_länkar" style="color:rgb(201, 185, 185);">
+      <b>Kontakta mig via e-post: <a href="mailto:05kacert@skola.boras.se">05kacert@skola.boras.se</a></b>
+      <br>
+      <b>Adress: <a href="https://www.google.com/maps/@34.9061752,139.1016718,2a,90y,302.45h,65.63t/data=!3m6!1e1!3m4!1shigNETmWXoUAAAQZLDcm2Q!2e0!7i13312!8i6656?entry=ttu">Capybara vägen 420</a></b>
+      <br>
+      <b>Telefon: <a>033-430 48 00</a></b>
+      <br>
+      <b>Webbansvarig: <a href="mailto:05kacert@skola.boras.se">Kacper Ertmanski</a></b>
+      <br>
+      <b>Senast Uppdaterad: <a>2023-10-04</a></b>
+    </div>
+  </footer>
+  
+</body>
+</html>
