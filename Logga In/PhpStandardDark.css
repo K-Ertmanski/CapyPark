@@ -1,0 +1,111 @@
+/* Dark Mode Styles */
+
+/* Override all existing styles and make everything black */
+.dark-mode * {
+    color: #fff !important;
+
+}
+
+.dark-mode html {
+    background-color: #000 !important; /* Set background color of html */
+}
+
+.dark-mode ul{
+    background-color: #7F7979 !important;
+}
+
+.dark-mode .active{
+    background-color: #595959 !important;
+}
+
+.dark-mode li a:hover{
+    background-color: #7F7F7F !important;
+} 
+
+.dark-mode #toggleBtn {
+    background-color: #7F7F7F; /* Set the background color */
+    color: #fff; /* Set the text color */
+    border-color: #7F7F7F; /* Set the border color */
+}
+
+.dark-mode #toggleBtn:hover {
+    background-color: #595959; /* Change background color on hover */
+    color: #7F7F7F; /* Change text color on hover */
+}
+
+/* Override Bootstrap components */
+.dark-mode .navbar {
+    background-color: #000 !important; /* Navbar background */
+    color: #fff !important; /* Navbar text color */
+}
+
+.dark-mode .navbar-nav .nav-link {
+    color: #fff !important; /* Navbar link color */
+}
+
+.dark-mode .btn {
+    background-color: #000 !important; /* Button background */
+    color: #fff !important; /* Button text color */
+}
+
+.dark-mode .form-control {
+    background-color: #000 !important; /* Form control background */
+    color: #fff !important; /* Form control text color */
+}
+
+.dark-mode .card {
+    background-color: #000 !important; /* Card background */
+    color: #fff !important; /* Card text color */
+}
+
+
+/* Override all existing styles and make everything black */
+.dark-mode #firstDiv {
+    background-color: #323031 !important;
+}
+
+.dark-mode #headerImage {
+    filter: brightness(50%) !important;
+}
+
+.dark-mode #secondDiv {
+    background-color: #323031 !important;
+}
+
+.dark-mode #thirdDiv {
+    background-color: #323031 !important;
+}
+
+.dark-mode .grid-even-columns {
+    background-color: #323031 !important;
+}
+
+.dark-mode .jumbotron {
+    background-color: #3D3B3C !important;
+    border-radius: 10px; /* Adjust the value as needed */
+}
+
+.dark-mode .container {
+    background-color: #323031 !important;
+    border-radius: 10px; /* Adjust the value as needed */
+}
+
+
+
+
+
+.dark-mode #smal {
+    background-color: #323031 !important;
+}
+
+.dark-mode #end {
+    background-color: #7F7979 !important;
+}
+
+.dark-mode #kontakt_info {
+    background-color: #3D3B3C !important;
+}
+
+.dark-mode #kontakt_länkar {
+    background-color: #3D3B3C !important;
+}

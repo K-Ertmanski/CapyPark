@@ -56,13 +56,17 @@ if (isset($_POST['uname']) && isset($_POST['password'])) {
 
                 $_SESSION['id'] = $row['id'];
 
+                $_SESSION['email'] = $row['email'];
+
+                $_SESSION['telefonnummer'] = $row['telefonnummer'];
+
                 header("Location: Konto.php");
 
                 exit();
 
             }else{
 
-                header("Location: Uppgifter.php?error=Incorect User name or password");
+                header("Location: Uppgifter.php?error=Felaktigt Användarnamn eller lösenord");
 
                 exit();
 
@@ -70,7 +74,7 @@ if (isset($_POST['uname']) && isset($_POST['password'])) {
 
         }else{
 
-            header("Location: Uppgifter.php?error=Incorect User name or password");
+            header("Location: Uppgifter.php?error=Felaktigt Användarnamn eller lösenord");
 
             exit();
 

@@ -66,14 +66,16 @@ li a:hover
 {
     overflow: auto;
     align-content: row;
+    border-radius: 10px; /* Adjust the value as needed */
     
 }
 
 .container
 {
-    margin-top: 40px;
+    margin-top: 50px;
     margin-bottom: 50px;
     align-content: center;
+    border-radius: 10px; /* Adjust the value as needed */
 }
 
 #secondDiv
@@ -179,5 +181,16 @@ li a:hover
 #inputText
 {
     margin-bottom: -0.25em;
+}
+
+.error
+{
+    color: crimson;
+    font-weight: bold;
+}
+
+html 
+{
+  scroll-behavior: smooth;
 }
 
